@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Real — Linares, Chile</title>
+  <meta name="description" content="Hotel Real, hotel de 3 estrellas en Freire 437, Linares, Chile. Establecido en 1985. Reservas: +56 73 221 0834.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ===== NAVEGACIÓN ===== -->
+  <header class="nav-wrapper" id="top">
+    <nav class="nav">
+      <a href="#inicio" class="nav-logo">Hotel Real</a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="nav-menu" role="list">
+        <li><a href="#habitaciones">Habitaciones</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#restaurante">Restaurante</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#panoramas">Panoramas</a></li>
+        <li><a href="#contacto" class="btn-nav-cta">Reservar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="section-hero" id="inicio" aria-label="Inicio">
+    <img class="hero-img" src="images/hero/hero-fachada-noche.jpg" alt="Fachada nocturna del Hotel Real, Linares" aria-hidden="true">
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-content">
+      <p class="label-sm label-translucent"></p>
+      <h1 class="display-lg">Un hotel con historia<br>en el coraz&oacute;n de Linares</h1>
+      <p class="hero-body">Tradici&oacute;n, confort y hospitalidad desde 1985. Bienvenido al Hotel Real.</p>
+      <div class="hero-actions">
+        <a href="#contacto" class="btn-primary btn-gold">Reservar ahora</a>
+        <a href="#habitaciones" class="btn-ghost">Ver habitaciones</a>
+      </div>
+    </div>
+    <div class="hero-badge" aria-label="Hotel de 3 estrellas">
+      <span class="badge-stars" aria-hidden="true">&#9733;&#9733;&#9733;</span>
+      <span class="badge-label">3 Estrellas</span>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ===== HABITACIONES ===== -->
+  <section class="section-rooms" id="habitaciones" aria-label="Habitaciones y suites">
+    <div class="container rooms-header">
+      <p class="label-sm">La Estancia</p>
+      <h2 class="headline-lg headline-primary">Nuestras Habitaciones</h2>
+    </div>
+
+    <div class="rooms-editorial">
+
+      <!-- 01 · Doble Twin — foto izquierda, card blanco derecha -->
+      <div class="room-block room-block--odd">
+        <div class="room-photo rp-twin" role="img" aria-label="Habitación Doble Twin">
+          <img src="images/habitaciones/doble-twin/principal.jpg" alt="Habitación Doble Twin">
+        </div>
+        <article class="room-card-overlay rco--light fade-in">
+          <p class="label-sm">Habitaci&oacute;n 01</p>
+          <h3 class="rco-title">Doble Twin</h3>
+          <div class="room-badges">
+            <span class="room-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+              M&aacute;x. 2 Personas
+            </span>
+            <span class="room-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 20v-6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v6"/><path d="M2 14h20"/><path d="M7 14V9"/><path d="M2 20h20"/></svg>
+              2 Camas (1.5 plazas)
+            </span>
+          </div>
+          <p class="rco-desc">Diseñada para compañeros de viaje. Ofrece el equilibrio perfecto entre descanso individual y comodidad compartida, en un ambiente sumamente tranquilo, ideal para recargar energías tras un día recorriendo Linares.</p>
+          <button class="rco-cta" data-room="doble-twin">Ver Detalles</button>
+        </article>
+      </div>
+
+      <!-- 02 · Matrimonial Estándar — foto derecha, card bordo izquierda -->
+      <div class="room-block room-block--even">
+        <div class="room-photo rp-matrimonial" role="img" aria-label="Habitación Matrimonial Estándar">
+          <img src="images/habitaciones/matrimonial-estandar/principal.jpg" alt="Habitación Matrimonial Estándar">
+        </div>
+        <article class="room-card-overlay rco--dark fade-in">
+          <p class="label-sm label-translucent">Habitaci&oacute;n 02</p>
+          <h3 class="rco-title rco-title--light">Matrimonial Est&aacute;ndar</h3>
+          <div class="room-badges">
+            <span class="room-badge room-badge--light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+              M&aacute;x. 2 Personas
+            </span>
+            <span class="room-badge room-badge--light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 20v-6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v6"/><path d="M2 14h20"/><path d="M7 14V9"/><path d="M2 20h20"/></svg>
+              1 Cama (2 plazas)
+            </span>
+          </div>
+          <p class="rco-desc rco-desc--light">Nuestro clásico refugio para parejas. Un espacio íntimo, cálido y lleno de detalles, pensado para ofrecer un descanso reparador con la tradicional hospitalidad que nos caracteriza desde siempre.</p>
+          <button class="rco-cta rco-cta--dark" data-room="matrimonial-estandar">Ver Detalles</button>
+        </article>
+      </div>
+
+      <!-- 03 · Matrimonial + Adicional — foto izquierda, card blanco derecha -->
+      <div class="room-block room-block--odd">
+        <div class="room-photo rp-adicional" role="img" aria-label="Habitación Matrimonial con Adicional">
+          <img src="images/habitaciones/matrimonial-adicional/principal.jpg" alt="Habitación Matrimonial con Adicional">
+        </div>
+        <article class="room-card-overlay rco--light fade-in">
+          <p class="label-sm">Habitaci&oacute;n 03</p>
+          <h3 class="rco-title">Matrimonial + Adicional</h3>
+          <div class="room-badges">
+            <span class="room-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+              M&aacute;x. 3 Personas
+            </span>
+            <span class="room-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 20v-6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v6"/><path d="M2 14h20"/><path d="M7 14V9"/><path d="M2 20h20"/></svg>
+              1 Cama (2 pl) + 1 Cama (1.5 pl)
+            </span>
+          </div>
+          <p class="rco-desc">El espacio perfecto para familias peque&ntilde;as. Amplitud, versatilidad y el máximo confort reunidos en una habitación luminosa donde todos podrán sentirse verdaderamente como en casa.</p>
+          <button class="rco-cta" data-room="matrimonial-adicional">Ver Detalles</button>
+        </article>
+      </div>
+
+      <!-- 04 · Triple — foto derecha, card bordo izquierda -->
+      <div class="room-block room-block--even">
+        <div class="room-photo rp-triple" role="img" aria-label="Habitación Triple">
+          <img src="images/habitaciones/triple/principal.jpg" alt="Habitación Triple">
+        </div>
+        <article class="room-card-overlay rco--dark fade-in">
+          <p class="label-sm label-translucent">Habitaci&oacute;n 04</p>
+          <h3 class="rco-title rco-title--light">Triple</h3>
+          <div class="room-badges">
+            <span class="room-badge room-badge--light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+              M&aacute;x. 3 Personas
+            </span>
+            <span class="room-badge room-badge--light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 20v-6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v6"/><path d="M2 14h20"/><path d="M7 14V9"/><path d="M2 20h20"/></svg>
+              3 Camas (1.5 plazas)
+            </span>
+          </div>
+          <p class="rco-desc rco-desc--light">M&aacute;xima amplitud para grupos. Tres camas independientes en un espacio generoso para que cada hu&eacute;sped disfrute de su propia comodidad.</p>
+          <button class="rco-cta rco-cta--dark" data-room="triple">Ver Detalles</button>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== SERVICIOS ===== -->
+  <section class="section-services" id="servicios" aria-label="Servicios del hotel">
+    <div class="container">
+      <div class="section-header">
+        <p class="label-sm label-translucent">Incluido en tu estad&iacute;a</p>
+        <h2 class="headline-lg headline-light">Servicios Incluidos</h2>
+      </div>
+
+      <!--
+        Bento grid 3-col:
+        Fila 1: [WiFi 1col] [Desayuno 2col]
+        Fila 2: [Climatización 2col] [Smart TV 1col]
+        Fila 3: [Baño Privado 1col] [Restaurante 2col]
+        Fila 4: [Pet Friendly 1col] [Estacionamiento 2col]
+      -->
+      <div class="svc-grid">
+
+        <!-- 1 · WiFi — 1 col, icono -->
+        <article class="svc-card svc-card--icon fade-in">
+          <div class="svc-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="1" fill="currentColor" stroke="none"/></svg>
+          </div>
+          <h3>Conexión WiFi</h3>
+          <p>Conectividad en todas las &aacute;reas del hotel, sin costo adicional para ning&uacute;n hu&eacute;sped.</p>
+        </article>
+
+        <!-- 2 · Desayuno — 2 col, foto -->
+        <article class="svc-card svc-card--photo-img svc-card--wide fade-in" aria-label="Desayuno Incluido">
+          <img src="images/servicios-incluidos/desayuno/foto-1.jpg" alt="Desayuno buffet Hotel Real">
+          <div class="svc-photo-img-overlay" aria-hidden="true"></div>
+          <div class="svc-card-content">
+            <h3>Desayuno Incluido</h3>
+            <p>Comienza cada d&iacute;a con energ&iacute;a. El desayuno buffet est&aacute; incluido en todas nuestras tarifas.</p>
+          </div>
+        </article>
+
+        <!-- 3 · Pet Friendly — 2 col, foto -->
+        <article class="svc-card svc-card--photo-img svc-card--wide fade-in" aria-label="Hotel Pet Friendly">
+          <img src="images/servicios-incluidos/pet/foto-petfriendly.jpg" alt="Mascota en Hotel Real - somos pet friendly">
+          <div class="svc-photo-img-overlay" aria-hidden="true"></div>
+          <div class="svc-card-content">
+            <h3>Hotel Pet Friendly</h3>
+            <p>Trae a tu mascota y disfruta de una estad&iacute;a c&oacute;moda. En Hotel Real somos pet friendly y nos encanta que tus compa&ntilde;eros peludos sean parte de tu experiencia. (requiere aviso previo a la reserva y aplica un cobro extra).</p>
+          </div>
+        </article>
+
+        <!-- 4 · Smart TV — 1 col, icono -->
+        <article class="svc-card svc-card--icon fade-in">
+          <div class="svc-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Smart TV</h3>
+          <p>Tu centro de entretenimiento personal. Relájate disfrutando de tus series y películas favoritas desde la comodidad de tu cama</p>
+        </article>
+
+        <!-- 5 · Baño Privado — 1 col, icono -->
+        <article class="svc-card svc-card--icon fade-in">
+          <div class="svc-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16a1 1 0 0 1 1 1v3a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4v-3a1 1 0 0 1 1-1z"/><path d="M6 12V5a2 2 0 0 1 2-2h3v2.25"/><line x1="6" y1="20" x2="6" y2="22"/><line x1="18" y1="20" x2="18" y2="22"/></svg>
+          </div>
+          <h3>Ba&ntilde;o Privado</h3>
+          <p>Cada habitaci&oacute;n cuenta con ba&ntilde;o privado completo para tu privacidad.</p>
+        </article>
+
+        <!-- 6 · Restaurante — 2 col, foto -->
+        <article class="svc-card svc-card--photo-img svc-card--wide fade-in" aria-label="Restaurante">
+          <img src="images/servicios-incluidos/restaurante/foto-1.jpg" alt="Restaurante Hotel Real">
+          <div class="svc-photo-img-overlay" aria-hidden="true"></div>
+          <div class="svc-card-content">
+            <h3>Restaurante</h3>
+            <p>Cocina de autor disponible para hu&eacute;spedes y p&uacute;blico general, con una carta que celebra los sabores de Chile.</p>
+          </div>
+        </article>
+
+        <!-- 7 · Estacionamiento — 2 col, foto -->
+        <article class="svc-card svc-card--photo-img svc-card--wide fade-in" aria-label="Estacionamiento Privado">
+          <img src="images/servicios-incluidos/estacionamientos/foto-estacionamiento.jpg" alt="Estacionamiento privado seguro Hotel Real">
+          <div class="svc-photo-img-overlay" aria-hidden="true"></div>
+          <div class="svc-card-content">
+            <h3>Estacionamiento Privado</h3>
+            <p>Estacionamiento privado y seguro ubicado al frente del hotel. Perfecto para que dejes tu veh&iacute;culo sin preocupaciones mientras disfrutas de tu estad&iacute;a en Linares. (Dirección: Freire 418)</p>
+          </div>
+        </article>
+
+        <!-- 8 · Climatización — 1 col, icono -->
+        <article class="svc-card svc-card--icon fade-in">
+          <div class="svc-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9.59 4.59A2 2 0 1 1 11 8H2"/><path d="M10.59 19.41A2 2 0 1 0 14 16H2"/><path d="M15.73 7.73A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+          </div>
+          <h3>Climatizaci&oacute;n Completa</h3>
+          <p>Calefacci&oacute;n y aire acondicionado en cada habitaci&oacute;n durante todo el a&ntilde;o.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESTAURANTE ===== -->
+  <section class="section-restaurant" id="restaurante" aria-label="Nuestra Gastronomía">
+    <div class="container">
+      <div class="restaurant-layout">
+
+        <!-- Columna izquierda: texto -->
+        <div class="restaurant-text fade-in">
+          <span class="restaurant-deco-line" aria-hidden="true"></span>
+          <p class="label-sm">Restaurante Hotel Real</p>
+          <h2 class="restaurant-title">Nuestra Gastronom&iacute;a</h2>
+          <p class="restaurant-body">Una experiencia culinaria que fusiona la tradici&oacute;n con ingredientes de primera calidad. Desde frescos sabores del mar hasta nuestras pastas artesanales y cortes premium, ofrecemos un men&uacute; dise&ntilde;ado para cautivar tus sentidos.</p>
+          <a href="documentos/carta-restaurante.pdf" class="btn-carta" target="_blank" rel="noopener">Ver Carta Completa</a>
+        </div>
+
+        <!-- Columna derecha: grid 2x2 de fotos -->
+        <div class="restaurant-photos fade-in">
+          <div class="restaurant-photo-grid">
+            <div class="rg-photo">
+              <img src="images/restaurante/foto-1.jpg" alt="Gastronomía Hotel Real - plato 1">
+            </div>
+            <div class="rg-photo">
+              <img src="images/restaurante/foto-3.pnj.jpeg" alt="Gastronomía Hotel Real - plato 3">
+            </div>
+            <div class="rg-photo">
+              <img src="images/restaurante/foto-2.jpg" alt="Gastronomía Hotel Real - plato 2">
+            </div>
+            <div class="rg-photo">
+              <img src="images/restaurante/foto-4.pnj.png" alt="Gastronomía Hotel Real - plato 4">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NOSOTROS ===== -->
+  <section class="section-about" id="nosotros" aria-label="Nuestra historia">
+    <div class="container about-layout">
+
+      <!-- Columna izquierda: imagen con badge flotante -->
+      <div class="about-img-wrap fade-in">
+        <div class="about-img-frame" role="img" aria-label="Fachada del Hotel Real, establecido en 1985">
+          <img src="images/historia/foto-principal.jpg" alt="Hotel Real en sus inicios, Linares 1985">
+        </div>
+        <div class="about-badge" aria-label="Establecido en 1985">
+          <span class="about-badge-year">Est.</span>
+          <span class="about-badge-num">1985</span>
+        </div>
+      </div>
+
+      <!-- Columna derecha: texto -->
+      <div class="about-content fade-in">
+        <p class="about-eyebrow">Nuestra Historia</p>
+        <h2 class="about-title">De una residencia familiar a un emblema de Linares</h2>
+        <p class="about-body">Lo que nació en 1985 como una residencia para acoger a los viajeros, poco a poco se fue transformando en el punto de encuentro por excelencia en el corazón de nuestra ciudad.</p>
+        <p class="about-body">Más de cuatro décadas después, en Freire 437, seguimos manteniendo intacto nuestro espíritu original: ofrecer un trato personal, un confort inigualable y la hospitalidad genuina que nos caracteriza.</p>
+        <blockquote class="about-quote">
+          <p>"Nuestra mayor tradición es hacerte sentir como en casa"</p>
+        </blockquote>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== PANORAMAS ===== -->
+  <section class="section-panoramas" id="panoramas" aria-label="Panoramas y atractivos turísticos cerca de Linares">
+    <div class="container">
+
+      <div class="panoramas-header fade-in">
+        <p class="panoramas-eyebrow"></p>
+        <h2 class="panoramas-title">Panoramas y Experiencias Cercanas</h2>
+        <p class="panoramas-subtitle">Descubre la magia que rodea al Hotel Real</p>
+        <p class="panoramas-desc"></p>
+      </div>
+
+      <div class="panoramas-grid">
+
+        <!-- Tarjeta 1: Cajón del Río Achibueno -->
+        <article class="pano-card fade-in" aria-label="Cajón del Río Achibueno">
+          <img
+            src="images/panoramas/achibueno/foto-rio-achibueno.jpg"
+            alt="Cajón del Río Achibueno, Santuario de la Naturaleza con pozones esmeralda en Linares, Maule"
+            loading="lazy"
+            class="pano-img"
+          >
+          <div class="pano-overlay"></div>
+          <div class="pano-content">
+            <span class="pano-distance">30 km desde Hotel Real</span>
+            <div class="pano-bottom">
+              <div class="pano-titles">
+                <h3 class="pano-title">Cajón del Río Achibueno</h3>
+                <p class="pano-subtitle-card">El orgullo natural de Linares</p>
+              </div>
+              <div class="pano-extra">
+                <div class="pano-tags">
+                  <span class="pano-tag">Kayak</span>
+                  <span class="pano-tag">Pesca con mosca</span>
+                  <span class="pano-tag">Trekking</span>
+                  <span class="pano-tag">Baños de río</span>
+                </div>
+                <button class="pano-cta" data-pano="achibueno" aria-label="Ver más información sobre Cajón del Río Achibueno">Descubre Más &rarr;</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tarjeta 2: Lago Colbún -->
+        <article class="pano-card fade-in" aria-label="Lago Colbún">
+          <img
+            src="images/panoramas/lago-colbun/foto-lago-colbun.jpg"
+            alt="Lago Colbún, embalse de aguas cristalinas con deportes náuticos en la región del Maule, Chile"
+            loading="lazy"
+            class="pano-img"
+          >
+          <div class="pano-overlay"></div>
+          <div class="pano-content">
+            <span class="pano-distance">30 km desde Hotel Real</span>
+            <div class="pano-bottom">
+              <div class="pano-titles">
+                <h3 class="pano-title">Lago Colbún</h3>
+                <p class="pano-subtitle-card">El oasis turquesa del Maule</p>
+              </div>
+              <div class="pano-extra">
+                <div class="pano-tags">
+                  <span class="pano-tag">Deportes náuticos</span>
+                  <span class="pano-tag">Natación</span>
+                  <span class="pano-tag">Pesca</span>
+                  <span class="pano-tag">Fotografía</span>
+                </div>
+                <button class="pano-cta" data-pano="colbun" aria-label="Ver más información sobre Lago Colbún">Descubre Más &rarr;</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tarjeta 3: Embalse Ancoa -->
+        <article class="pano-card fade-in" aria-label="Embalse Ancoa">
+          <img
+            src="images/panoramas/embalse-ancoa/foto-pozones-ancoa.jpg"
+            alt="Embalse Ancoa rodeado de montañas, destino de desconexión a minutos de Linares, Maule"
+            loading="lazy"
+            class="pano-img"
+          >
+          <div class="pano-overlay"></div>
+          <div class="pano-content">
+            <span class="pano-distance">45 km desde Hotel Real</span>
+            <div class="pano-bottom">
+              <div class="pano-titles">
+                <h3 class="pano-title">Embalse Ancoa</h3>
+                <p class="pano-subtitle-card">Naturaleza pura y vistas panorámicas inigualables</p>
+              </div>
+              <div class="pano-extra">
+                <div class="pano-tags">
+                  <span class="pano-tag">Paseo de tarde</span>
+                  <span class="pano-tag">Miradores</span>
+                  <span class="pano-tag">Picnic</span>
+                  <span class="pano-tag">Ruta escénica</span>
+                </div>
+                <button class="pano-cta" data-pano="ancoa" aria-label="Ver más información sobre Embalse Ancoa">Descubre Más &rarr;</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tarjeta 4: Reserva Nacional Los Bellotos -->
+        <article class="pano-card fade-in" aria-label="Reserva Nacional Los Bellotos">
+          <img
+            src="images/panoramas/los-bellotos/foto-los-bellotos.png"
+            alt="Bosque nativo Reserva Nacional Los Bellotos, santuario del Belloto del Sur en la región del Maule"
+            loading="lazy"
+            class="pano-img"
+          >
+          <div class="pano-overlay"></div>
+          <div class="pano-content">
+            <span class="pano-distance">60 km desde Hotel Real</span>
+            <div class="pano-bottom">
+              <div class="pano-titles">
+                <h3 class="pano-title">Reserva Nacional Los Bellotos</h3>
+                <p class="pano-subtitle-card">La puerta a la "Patagonia Central"</p>
+              </div>
+              <div class="pano-extra">
+                <div class="pano-tags">
+                  <span class="pano-tag">Trekking avanzado</span>
+                  <span class="pano-tag">Flora endémica</span>
+                  <span class="pano-tag">Fotografía de naturaleza</span>
+                </div>
+                <button class="pano-cta" data-pano="bellotos" aria-label="Ver más información sobre Reserva Nacional Los Bellotos">Descubre Más &rarr;</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tarjeta 5: Parque Nacional Radal Siete Tazas -->
+        <article class="pano-card fade-in" aria-label="Parque Nacional Radal Siete Tazas">
+          <img
+            src="images/panoramas/parque-siete-tasas/foto-parque-7tasas.jpg"
+            alt="Parque Nacional Radal Siete Tazas, pozones de agua turquesa tallados en roca volcánica, Maule, Chile"
+            loading="lazy"
+            class="pano-img"
+          >
+          <div class="pano-overlay"></div>
+          <div class="pano-content">
+            <span class="pano-distance">130 km desde Hotel Real</span>
+            <div class="pano-bottom">
+              <div class="pano-titles">
+                <h3 class="pano-title">Parque Nacional Radal Siete Tazas</h3>
+                <p class="pano-subtitle-card">La maravilla de roca y agua cristalina</p>
+              </div>
+              <div class="pano-extra">
+                <div class="pano-tags">
+                  <span class="pano-tag">Trekking familiar</span>
+                  <span class="pano-tag">Fotografía</span>
+                  <span class="pano-tag">Naturaleza</span>
+                  <span class="pano-tag">Cascadas</span>
+                </div>
+                <button class="pano-cta" data-pano="siete-tazas" aria-label="Ver más información sobre Parque Nacional Radal Siete Tazas">Descubre Más &rarr;</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tarjeta 6: Pueblo Artesanal de Rari -->
+        <article class="pano-card fade-in" aria-label="Pueblo Artesanal de Rari">
+          <img
+            src="images/panoramas/rari/foto-artesania-rari.jpg"
+            alt="Artesanía colorida en crin de caballo del pueblo artesanal de Rari, Linares, Chile"
+            loading="lazy"
+            class="pano-img"
+          >
+          <div class="pano-overlay"></div>
+          <div class="pano-content">
+            <span class="pano-distance">20 km desde Hotel Real</span>
+            <div class="pano-bottom">
+              <div class="pano-titles">
+                <h3 class="pano-title">Pueblo Artesanal de Rari</h3>
+                <p class="pano-subtitle-card">Capital mundial de la artesanía en crin</p>
+              </div>
+              <div class="pano-extra">
+                <div class="pano-tags">
+                  <span class="pano-tag">Artesanía local</span>
+                  <span class="pano-tag">Cultura y patrimonio</span>
+                  <span class="pano-tag">Paseo familiar</span>
+                  <span class="pano-tag">Compra de souvenirs</span>
+                </div>
+                <button class="pano-cta" data-pano="rari" aria-label="Ver más información sobre Pueblo Artesanal de Rari">Descubre Más &rarr;</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACTO ===== -->
+  <section class="section-contact" id="contacto" aria-label="Contacto y reservas">
+    <div class="container contact-layout">
+
+      <!-- Columna izquierda: mapa + tarjetas -->
+      <div class="contact-info fade-in">
+        <h2 class="contact-title">Ubicaci&oacute;n e Informaci&oacute;n</h2>
+        <p class="contact-desc">Estamos a tu disposici&oacute;n para ayudarte a planificar tu estad&iacute;a perfecta en Linares. Cont&aacute;ctanos directamente para asistencia personalizada.</p>
+
+        <!-- Google Maps -->
+        <div class="contact-map">
+          <iframe
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA-wscakKbNy2EIFAiIea6vFWsX_UdqxHM&q=Freire+437,Linares,Chile"
+            width="100%"
+            height="500"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Ubicaci&oacute;n Hotel Real Linares"
+          ></iframe>
+        </div>
+
+        <!-- Tarjetas de contacto -->
+        <div class="contact-cards">
+
+          <div class="contact-card">
+            <span class="contact-card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <p class="contact-card-title">Direcci&oacute;n</p>
+            <p class="contact-card-content">Freire 437, Linares, Regi&oacute;n del Maule, Chile</p>
+          </div>
+
+          <div class="contact-card">
+            <span class="contact-card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.8 12.8 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 6 6l.93-.93a2 2 0 0 1 2.11-.45 12.8 12.8 0 0 0 2.81.7A2 2 0 0 1 21.6 16.92z"/></svg>
+            </span>
+            <p class="contact-card-title">Tel&eacute;fono</p>
+            <p class="contact-card-content"><a href="tel:+56732210834">+56 73 221 0834</a></p>
+          </div>
+
+          <div class="contact-card">
+            <span class="contact-card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </span>
+            <p class="contact-card-title">WhatsApp</p>
+            <p class="contact-card-content"><a href="https://wa.me/56944929920" target="_blank" rel="noopener">+56 9 4492 9920</a></p>
+          </div>
+
+          <div class="contact-card">
+            <span class="contact-card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </span>
+            <p class="contact-card-title">Email</p>
+            <p class="contact-card-content"><a href="mailto:reservas@hotelreal.cl">reservas@hotelreal.cl</a></p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Columna derecha: formulario -->
+      <div class="contact-form-box fade-in">
+        <h3 class="form-title">Consultar disponibilidad</h3>
+        <form id="reserva-form" novalidate>
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" autocomplete="name" required>
+          </div>
+          <div class="form-group">
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" autocomplete="email" required>
+          </div>
+          <div class="form-group">
+            <label for="habitacion">Tipo de Habitaci&oacute;n</label>
+            <div class="select-wrap">
+              <select id="habitacion" name="habitacion">
+                <option value="">Seleccionar&hellip;</option>
+                <option value="Doble Twin">Doble Twin</option>
+                <option value="Matrimonial Est&aacute;ndar">Matrimonial Est&aacute;ndar</option>
+                <option value="Matrimonial + Adicional">Matrimonial + Adicional</option>
+                <option value="Triple">Triple</option>
+              </select>
+              <span class="select-arrow" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="checkin">Check-in</label>
+              <input type="date" id="checkin" name="checkin">
+            </div>
+            <div class="form-group">
+              <label for="checkout">Check-out</label>
+              <input type="date" id="checkout" name="checkout">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Consulta Adicional</label>
+            <textarea id="mensaje" name="mensaje" placeholder="&iquest;En qu&eacute; podemos ayudarte?"></textarea>
+          </div>
+          <button type="submit" class="btn-whatsapp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.554 4.124 1.522 5.856L.057 23.625a.75.75 0 0 0 .921.908l5.934-1.564A11.945 11.945 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0m0 1.5c5.799 0 10.5 4.701 10.5 10.5S17.799 22.5 12 22.5c-1.97 0-3.81-.544-5.388-1.487l-.384-.232-3.99 1.051 1.002-3.878-.249-.399A10.46 10.46 0 0 1 1.5 12C1.5 6.201 6.201 1.5 12 1.5"/></svg>
+            Enviar Consulta
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="top-anchor">
+    <div class="container">
+
+      <!-- Grid 2 columnas: marca | redes sociales -->
+      <div class="footer-grid">
+
+        <!-- Col 1: Marca -->
+        <div class="footer-brand">
+          <span class="footer-logo">Hotel Real</span>
+          <p>Hotel de 3 estrellas &mdash; Freire 437,<br>Linares, Regi&oacute;n del Maule, Chile.<br>Desde 1985.</p>
+        </div>
+
+        <!-- Col 2: Redes sociales -->
+        <div class="footer-social">
+          <p class="footer-social-heading">S&iacute;guenos en Nuestras Redes Sociales</p>
+          <div class="footer-social-icons">
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/hotelreallinareschile" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Instagram Hotel Real Linares">
+              <img src="images/redes-sociales/logo-instagram/logo-instagram.jpg?v=3" alt="Instagram Hotel Real" class="social-icon" loading="lazy">
+            </a>
+
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/hotelreal.cl" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Facebook Hotel Real Linares">
+              <img src="images/redes-sociales/logo-facebook/logo-facebook.jpg?v=4" alt="Facebook Hotel Real" class="social-icon" loading="lazy">
+            </a>
+
+            <!-- TikTok -->
+            <a href="https://www.tiktok.com/@hotel.real.linares?_r=1&_t=ZS-95KYHwbgqgO" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="TikTok Hotel Real Linares">
+              <img src="images/redes-sociales/logo-tiktok/logo-tiktok.jpg?v=4" alt="TikTok Hotel Real" class="social-icon" loading="lazy">
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Línea inferior -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 Hotel Real. Todos los derechos reservados.</p>
+        <a href="#top" class="footer-back-top" aria-label="Volver al inicio">&#8593; Arriba</a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ===== MODAL PANORAMA ===== -->
+  <div class="pano-modal-overlay" id="pano-modal" role="dialog" aria-modal="true" aria-labelledby="pano-modal-title">
+    <div class="pano-modal-container">
+
+      <button class="pano-modal-close" aria-label="Cerrar modal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <!-- Imagen grande -->
+      <div class="pano-modal-img-wrap">
+        <img id="pano-modal-img" src="" alt="" class="pano-modal-img">
+      </div>
+
+      <!-- Cuerpo de texto -->
+      <div class="pano-modal-body">
+        <span class="pano-modal-distance" id="pano-modal-distance"></span>
+        <h2 class="pano-modal-title" id="pano-modal-title"></h2>
+        <p class="pano-modal-tagline" id="pano-modal-tagline"></p>
+        <div class="pano-modal-divider"></div>
+        <div class="pano-modal-text" id="pano-modal-text"></div>
+        <a href="#contacto" class="pano-modal-cta" id="pano-modal-cta">Consultar disponibilidad &rarr;</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===== MODAL HABITACIÓN ===== -->
+  <div class="room-modal-overlay" id="room-modal" role="dialog" aria-modal="true" aria-labelledby="modal-room-title">
+    <div class="room-modal-container">
+
+      <button class="room-modal-close" aria-label="Cerrar modal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div class="room-modal-grid">
+
+        <!-- Zona media: imagen principal + miniaturas verticales -->
+        <div class="room-modal-media">
+
+          <!-- Imagen principal -->
+          <div class="room-modal-col-img">
+            <div class="modal-img-main" id="modal-img-main" role="img" aria-label="Imagen principal de la habitación"></div>
+          </div>
+
+          <!-- Miniaturas verticales (generadas por JS) -->
+          <div class="room-modal-col-thumbs" id="modal-thumbs-container"></div>
+
+        </div>
+
+        <!-- Columna información -->
+        <div class="room-modal-col-info">
+
+          <!-- Área scrollable con eyebrow, título, desc, disclaimer, specs, amenidades -->
+          <div class="modal-info-scroll">
+            <p class="modal-eyebrow" id="modal-eyebrow"></p>
+            <h2 class="modal-title" id="modal-room-title"></h2>
+            <p class="modal-desc" id="modal-desc"></p>
+
+            <div class="modal-disclaimer">
+              <p>Nota de alojamiento: Esta categor&iacute;a cuenta con habitaciones de dise&ntilde;o contempor&aacute;neo (remodeladas) y de estilo cl&aacute;sico tradicional. La asignaci&oacute;n del estilo se define al momento de realizar su reserva y est&aacute; sujeta a disponibilidad, garantizando en ambas nuestro m&aacute;ximo est&aacute;ndar de confort.</p>
+            </div>
+
+            <div class="modal-specs">
+              <span class="modal-spec-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 20v-6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v6"/><path d="M2 14h20"/><path d="M7 14V9"/><path d="M2 20h20"/></svg>
+                <span id="modal-beds"></span>
+              </span>
+              <span class="modal-spec-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+                <span id="modal-capacity"></span>
+              </span>
+            </div>
+
+            <ul class="modal-amenities" aria-label="Amenidades incluidas">
+              <li>Climatizaci&oacute;n Fr&iacute;o / Caliente</li>
+              <li>WiFi de Alta Velocidad</li>
+              <li>Smart TV</li>
+              <li>Ba&ntilde;o Privado</li>
+              <li>Desayuno Incluido</li>
+            </ul>
+          </div>
+
+          <!-- Botón siempre visible fuera del scroll -->
+          <div class="modal-info-footer">
+            <button class="btn-reserve" id="btn-modal-reserve">Quiero Reservar esta Habitaci&oacute;n</button>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
